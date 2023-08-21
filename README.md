@@ -10,3 +10,6 @@ $ git remote set-url origin git@bitbucket.org:tutorials/tutorials.git
 +) git branch -M <branch_name>
 +) git push -u -f <remote_name> <branch_name> (nên gửi lên 1 branch trống, vì cách này sẽ xóa all file trước đó trong branch)
 +) và sau đó push k cần -u -f (vẫn cần <branch_name> và <remote_name>. file đã lưu cũng sẽ k bị xóa.
+>> Nếu đang ở branch a của remote A, muốn push sang branch b của remote B
+>> ta dùng git branch -M b
+>> rồi push B b ( B phải đc add sẵn rồi )
